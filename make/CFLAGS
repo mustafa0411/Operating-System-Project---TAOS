@@ -1,0 +1,10 @@
+-std=c18
+--target=i386-elf
+-Wall
+-Wextra
+-Werror
+-Wpedantic
+-ffreestanding
+-g
+-Iinclude
+-mno-sse

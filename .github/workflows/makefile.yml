@@ -1,0 +1,21 @@
+name: Makefile CI
+
+on:
+  push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: ghcr.io/wvu-cs450/build-environment:cs450
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Build
+      run: make
+
+    - name: Save kernel.bin
+      uses: actions/upload-artifact@v4
+      with:
+        name: mpx
+        path: kernel.bin

@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "memory.h": "c",
+        "pcb_user_commands.h": "c",
+        "sys_req.h": "c",
+        "com_hist.h": "c",
+        "commhand.h": "c",
+        "processes.h": "c",
+        "queue.h": "c",
+        "pcb.h": "c",
+        "sys_call.h": "c",
+        "dispatching.h": "c",
+        "user_commands.h": "c",
+        "stdio.h": "c",
+        "rtc.h": "c",
+        "style.h": "c",
+        "mcb_user_commands.h": "c",
+        "vm.h": "c",
+        "mcb.h": "c"
+    }
+}
